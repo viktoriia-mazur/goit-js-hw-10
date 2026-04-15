@@ -1,0 +1,121 @@
+.form-wrapper {
+    width: 400px;
+    height: auto;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    background: #e4e3e3be;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.lable-delay {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.input-form {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.form fieldset {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 24px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    background: #fff;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    transition: border-color 300ms ease;
+}
+
+.form fieldset legend {
+    font-size: 16px;
+    padding: 0 8px;
+    margin-left: 20px;
+}
+
+.form fieldset:hover {
+    border-color: #000;
+}
+
+.form fieldset label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 4px 0;
+}
+
+.form fieldset input {
+    margin: 0;
+    border: 1px solid #757575;
+    border-radius: 14px;
+    width: 20px;
+    height: 20px;
+}
+
+.form fieldset input:hover {
+    border-color: #000;
+}
+
+.form button {
+    display: block;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+    padding: 8px 16px;
+    width: 100%;
+    background: #4e75ff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    transition: background-color 300ms ease;
+}
+
+.form button:hover {
+    background: #6c8cff;
+}
+
+.iziToast-wrapper-topRight {
+    top: 70px;
+    right: 0;
+    text-align: right;
+}
